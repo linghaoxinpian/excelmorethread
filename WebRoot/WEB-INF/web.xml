@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>app.Download</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Preview</servlet-name>
+    <servlet-class>app.Preview</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WordTemplate</servlet-name>
+    <servlet-class>app.WordTemplate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clazz</servlet-name>
+    <servlet-class>app.Clazz</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Preview</servlet-name>
+    <url-pattern>/preview</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WordTemplate</servlet-name>
+    <url-pattern>/wordtemplate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clazz</servlet-name>
+    <url-pattern>/clazz</url-pattern>
+  </servlet-mapping>
+
+</web-app>
